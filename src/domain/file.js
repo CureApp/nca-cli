@@ -2,10 +2,16 @@
 
 import fs from 'fs'
 
+/**
+ * file
+ */
 export default class File {
 
     filePath: string
 
+    /**
+     * check the given string is a valid file path
+     */
     static isValid(filePath: string): boolean {
         return fs.existsSync(filePath) && fs.statSync(filePath).isFile()
     }

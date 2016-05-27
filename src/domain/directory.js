@@ -2,10 +2,16 @@
 
 import fs from 'fs'
 
+/**
+ * Directory
+ */
 export default class Directory {
 
     dirPath: string
 
+    /**
+     * check the given string is a valid directory
+     */
     static isValid(dirPath: string): boolean {
         return fs.existsSync(dirPath) && fs.statSync(dirPath).isDirectory()
     }

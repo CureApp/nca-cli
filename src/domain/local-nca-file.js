@@ -2,6 +2,9 @@
 
 import ProjectRootDirectory from './project-root-directory'
 
+/**
+ * node-circleci-autorelease in local node_modules
+ */
 export default class LocalNcaFile {
 
     rootDir: ProjectRootDirectory

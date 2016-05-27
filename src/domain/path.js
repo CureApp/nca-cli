@@ -2,6 +2,9 @@
 
 import {join} from 'path'
 
+/**
+ * path
+ */
 export default class Path {
 
     path: string;
