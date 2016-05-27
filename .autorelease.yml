@@ -10,9 +10,9 @@ config:
   npm_update_depth: 0
   version_prefix: v
   create_branch: false
-  npm_shrinkwrap: false
-  create_gh_pages: false
-  gh_pages_dir: null
+  npm_shrinkwrap: true
+  create_gh_pages: true
+  gh_pages_dir: doc
 circle:
   machine:
     node:
