@@ -1,9 +1,9 @@
 {
   "name": "nca-cli",
   "version": "0.1.0",
-  "main": "dist/main",
+  "main": "dist/cli",
   "bin": {
-    "dist/cli.js": "nca"
+    "nca": "dist/cli.js"
   },
   "scripts": {
     "babel": "babel src -d dist",
