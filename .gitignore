@@ -8,7 +8,8 @@ dist
 doc/reference*
 
 # npm https://www.npmjs.com
-node_modules
+/node_modules
+
 
 # avn settings https://github.com/wbyoung/avn
 .envrc
