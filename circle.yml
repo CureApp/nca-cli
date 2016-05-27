@@ -20,5 +20,5 @@ deployment:
     branch:
       - master
     commands:
-      - nca release --prefix v
-      - nca notice gh-pages
+      - nca release --prefix v --shrinkwrap
+      - nca gh-pages --dir doc
