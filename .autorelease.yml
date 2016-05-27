@@ -2,6 +2,9 @@ hooks:
   update_modules:
     post:
       - npm run babel
+  gh_pages:
+    pre:
+      - npm run doc
 
 config:
   git_user_name: CircleCI

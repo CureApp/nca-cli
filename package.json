@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^5.1.1",
     "flow-bin": "^0.25.0",
     "mocha": "^2.4.5",
-    "node-circleci-autorelease": "^2.0.8",
+    "node-circleci-autorelease": "^2.0.13",
     "power-assert": "^1.4.1"
   }
 }
