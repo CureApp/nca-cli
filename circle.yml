@@ -13,12 +13,12 @@ machine:
     version: 6.2.0
 dependencies:
   post:
-    - $(npm bin)/nca notice update-modules
-    - npm run babel
+    - nca notice update-modules
+    - nca ok && npm run babel
 deployment:
   create_release_branch:
     branch:
       - master
     commands:
-      - $(npm bin)/nca release --prefix v
-      - $(npm bin)/nca notice gh-pages
+      - nca release --prefix v
+      - nca notice gh-pages
