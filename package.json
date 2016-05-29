@@ -1,6 +1,6 @@
 {
   "name": "nca-cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "dist/cli",
   "bin": {
     "nca": "dist/cli.js"
