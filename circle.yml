@@ -13,13 +13,13 @@ machine:
     version: 6.2.0
 dependencies:
   post:
-    - nca ok && nca notice update-modules
-    - nca ok && npm run babel
+    - nca run nca notice update-modules
+    - nca run npm run babel
 deployment:
   create_release_branch:
     branch:
       - master
     commands:
       - nca release --prefix v --shrinkwrap
-      - nca ok && npm run doc
-      - nca ok && nca gh-pages --dir doc
+      - nca run npm run doc
+      - nca run nca gh-pages --dir doc
