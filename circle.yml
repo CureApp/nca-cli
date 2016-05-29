@@ -20,6 +20,6 @@ deployment:
     branch:
       - master
     commands:
-      - nca release --prefix v --shrinkwrap
+      - nca release --prefix v
       - nca run npm run doc
       - nca run nca gh-pages --dir doc
