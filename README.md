@@ -8,8 +8,8 @@ npm install -g nca-cli
 
 # requirements
 
-- Tun on the project root
-- The project must contain `node-circleci-autorelease`
+- Run on the project root.
+- The project must contain `node-circleci-autorelease`.
     (install by `npm install --save-dev node-circleci-autorelease`)
 
 # usage
