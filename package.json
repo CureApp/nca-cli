@@ -41,7 +41,7 @@
     "eslint-plugin-flow-vars": "^0.4.0",
     "eslint-plugin-flowtype": "^2.2.7",
     "eslint-plugin-react": "^5.1.1",
-    "flow-bin": "^0.26.0",
+    "flow-bin": "^0.34.0",
     "mocha": "^2.4.5",
     "node-circleci-autorelease": "^2.1.3",
     "power-assert": "^1.4.1"
